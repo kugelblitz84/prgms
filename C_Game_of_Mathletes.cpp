@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+#define uint unsigned long long
+#define int long long
+using namespace std;
+
+void solve()
+{
+    int n;
+    cin >> n;
+    int arr;
+    bool has[101] = {false};
+    stack<int> stk;
+    int ans = 0;
+    for(int i = 0; i < n; i++){
+        cin >> arr;
+        if(!has[arr]) ans++,stk.push(arr),has[arr] = true;
+        else{
+            while(stk.top() != arr and has[arr]){
+                has[stk.top()] = false;
+                stk.pop();
+            }
+        }
+    }
+    cout << ans << '\n';
+
+}
+
+int32_t main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t = 1;
+    cin >> t;
+    for (int i = 1; i <= t; i++)
+    {
+        cout << "Case " << i <<": ";
+        solve();
+    }
+    return 0;
+}

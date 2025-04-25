@@ -1,0 +1,1 @@
+{"name":"Local: try","url":"h:\\Files_and_Codes\\prgms\\try.cpp","tests":[{"id":1743772270735,"input":"1 2 3","output":"1 2 3 12 13 23 123"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\Files_and_Codes\\prgms\\try.cpp","group":"local","local":true}
