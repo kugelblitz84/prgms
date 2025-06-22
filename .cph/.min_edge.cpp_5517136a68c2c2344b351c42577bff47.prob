@@ -1,0 +1,1 @@
+{"name":"Local: min_edge","url":"h:\\Files_and_Codes\\prgms\\min_edge.cpp","tests":[{"id":1746161390026,"input":"5 2\n1 2\n3 4","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\Files_and_Codes\\prgms\\min_edge.cpp","group":"local","local":true}

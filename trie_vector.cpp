@@ -7,14 +7,14 @@ const int MAX_NODES = 1e5 + 5;
 int trie[MAX_NODES][26];     // trie[node][char] = next_node , 
 int words_in[MAX_NODES];     // number of words passing through node
 int ended_here[MAX_NODES];   // number of words ending at node
-int node_count = 1;          // root is at index 0
+int total_words = 1;          // root is at index 0
 
 void insert(const string& s) {
     int node = 0;
     for (char ch : s) {
         int idx = ch - 'a';
         if (trie[node][idx] == 0) {
-            trie[node][idx] = node_count++;
+            trie[node][idx] = total_words++;
         }
         node = trie[node][idx];
         words_in[node]++;
@@ -69,3 +69,5 @@ int32_t main() {
     solve();
     return 0;
 }
+
+
