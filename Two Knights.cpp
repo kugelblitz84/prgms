@@ -15,7 +15,8 @@ vector<long long> two_knights_non_attacking(int n) {
 }
 
 int main() {
-    int n = 8; // or any n you want
+    int n;
+    cin >> n;
     vector<long long> answer = two_knights_non_attacking(n);
 
     for (int i = 0; i < answer.size(); ++i) {
