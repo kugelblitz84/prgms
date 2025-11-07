@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"h:\\Files_and_Codes\\prgms\\.cph\\a.minfromny.cpp","tests":[{"id":1758644312805,"input":"10 5","output":"50000"},{"id":1758644334173,"input":"89 33\n","output":"560000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\Files_and_Codes\\prgms\\.cph\\a.minfromny.cpp","group":"local","local":true}

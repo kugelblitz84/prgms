@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"h:\\Files_and_Codes\\prgms\\B. kth div.cpp","tests":[{"id":1758940662479,"input":"4 2\n","output":"2\n"},{"id":1758940673657,"input":"5 3\n","output":"-1\n"},{"id":1758941685654,"input":"1 2\n","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\Files_and_Codes\\prgms\\B. kth div.cpp","group":"local","local":true}
