@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+#define uint unsigned long long
+#define int long long
+using namespace std;
+
+void solve()
+{
+    string s, ss;
+    cin >> s >> ss;
+    if(s.length() > ss.length())
+        swap(s, ss);
+    int as = 0, bs = 0, ass = 0, bss = 0;
+    
+
+}
+
+int32_t main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t = 1;
+    cin >> t;
+    for (int i = 1; i <= t; i++)
+    {
+        // cout << "Case " << i <<": ";
+        solve();
+    }
+    return 0;
+}
