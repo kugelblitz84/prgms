@@ -1,0 +1,1 @@
+{"name":"Local: morning_walk","url":"h:\\Files_and_Codes\\prgms\\morning_walk.cpp","tests":[{"id":1766405790098,"input":"2\n\n2 2 3\n\n.#\n#.\n\n..\n..\n\n##\n#.\n\n1 2 2\n\n.#\n\n#.\n","output":"7\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\Files_and_Codes\\prgms\\morning_walk.cpp","group":"local","local":true}
